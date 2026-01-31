@@ -1,0 +1,12 @@
+a=10
+b=10.4
+c=5j
+print(a)
+print(type(a))
+print(id(a))
+print(b)
+print(type(b))
+print(id(b))
+print(c)
+print(type(c))
+print(id(c))
