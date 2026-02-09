@@ -13,6 +13,9 @@ lis[3]=6
 print(lis)
 lis[4:7]=[16,1,17]
 print(lis)
+# print n access
+lis.reverse()
+print(lis)
 #delete pop(),remove(),del,clear()
 lis.pop()
 print(lis)
