@@ -24,6 +24,7 @@ class Bank:
     
     def checkBalance(self):
         print(f"your balance is:{self.balance}")
+
 id = int(input("enter cus id:"))
 name=input("enter cus name:")
 balance = int(input("enter intial balance:"))
@@ -35,16 +36,21 @@ while(choice != 5):
     choice =int(input())
     if choice==1:
         bank.cusinfo()
+        print("===========================================")
     elif choice==2:
         cash = int(input("enter deposite amount:"))
-        bank.deposite(cash)
+        bank.deposite(cash) 
+        print("===========================================")
     elif choice==3:
         cash = int(input("enter amount:"))
         bank.withdraw(cash)
+        print("===========================================")
     elif choice == 4:
         bank.checkBalance()
+        print("===========================================")
     elif choice != 5:
         print("invalid input")
+        print("===========================================")
         
 print("Thank you")
     
