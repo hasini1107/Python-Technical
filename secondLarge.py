@@ -1,0 +1,7 @@
+n = int(input())
+lis = list(map(int,input().split()))
+se = set(lis)
+lis2=list(se)
+h=max(lis2)
+lis2.remove(h)
+print(max(lis2))
